@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LiferxMD</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    body { font-family: 'DM Sans', sans-serif; }
+    .card { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.08); }
+    .arrow-btn { transition: background 0.2s ease, transform 0.2s ease; }
+    .arrow-btn:hover { transform: scale(1.1); }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-green-50 via-white to-green-50 min-h-screen flex items-center justify-center p-8">
+
+  <div class="grid grid-cols-2 gap-4 max-w-4xl w-full">
+
+    <!-- Large Card: Weight Loss -->
+    <div class="card bg-white rounded-3xl p-8 flex flex-col justify-between min-h-[320px] relative overflow-hidden cursor-pointer row-span-2 shadow-sm">
+      <!-- Product Image Area -->
+      <div class="flex-1 flex items-center justify-center py-6">
+        <div class="relative">
+          <!-- Box illustration -->
+          <div class="w-52 h-40 relative" style="perspective: 600px;">
+            <div class="absolute inset-0 flex items-center justify-center">
+              <!-- Box body -->
+              <div class="relative w-44 h-32 rounded-xl shadow-2xl" style="background: linear-gradient(145deg, #3a3a4a, #2a2a38); transform: rotateY(-15deg) rotateX(5deg);">
+                <!-- Top face -->
+                <div class="absolute -top-3 left-2 right-0 h-6 rounded-tl-xl rounded-tr-xl" style="background: linear-gradient(90deg, #4a4a5a, #3a3a48); transform: skewX(-20deg);"></div>
+                <!-- Logo text -->
+                <div class="absolute inset-0 flex flex-col items-center justify-center px-4">
+                  <div class="text-center">
+                    <span class="text-2xl font-bold tracking-wide" style="color: #a3d977;">LIFER</span><span class="text-lg font-bold" style="color: #6ec0e8;">x</span><span class="text-xl font-bold text-white">MD</span>
+                    <div class="mt-1 border border-gray-500 rounded px-2 py-0.5">
+                      <span class="text-xs text-gray-400 tracking-widest">Live Life Now</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- Blue corner accent -->
+                <div class="absolute bottom-0 right-0 w-8 h-10 rounded-br-xl" style="background: linear-gradient(135deg, #4a90d9, #2a70b9);"></div>
+                <!-- Shadow below box -->
+                <div class="absolute -bottom-4 left-4 right-4 h-4 rounded-full" style="background: rgba(0,0,0,0.15); filter: blur(8px);"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text & CTA -->
+      <div class="flex items-end justify-between mt-4">
+        <h2 class="text-2xl font-semibold text-gray-800 leading-snug">Weight Loss<br/>with GLP-1s</h2>
+        <button class="arrow-btn w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0" style="background:#1a7a5e;">
+          <svg class="w-4 h-4 text-white" fill="none" stroke="white" stroke-width="2.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Small Card: Boost Sexual Performance -->
+    <div class="card bg-white rounded-3xl p-7 flex items-center justify-between shadow-sm cursor-pointer">
+      <div class="flex flex-col justify-between h-full flex-1 pr-4">
+        <h3 class="text-xl font-semibold text-gray-800 leading-snug">Boost Sexual<br/>Performance</h3>
+        <div class="mt-6 flex justify-end">
+          <button class="arrow-btn w-10 h-10 rounded-full flex items-center justify-center" style="background:#1a7a5e;">
+            <svg class="w-4 h-4" fill="none" stroke="white" stroke-width="2.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Blue pill illustration -->
+      <div class="flex-shrink-0">
+        <div class="w-24 h-24 rounded-full shadow-lg flex items-center justify-center" style="background: linear-gradient(145deg, #6dcff6, #4ab8e8); box-shadow: 0 8px 24px rgba(74,184,232,0.35);">
+          <div class="w-16 h-16 rounded-full flex items-center justify-center" style="background: rgba(255,255,255,0.15);">
+            <span class="text-3xl font-bold text-white" style="text-shadow: 0 2px 4px rgba(0,0,0,0.2);">L</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Small Card: Fight Hair Loss -->
+    <div class="card bg-white rounded-3xl p-7 flex items-center justify-between shadow-sm cursor-pointer">
+      <div class="flex flex-col justify-between h-full flex-1 pr-4">
+        <h3 class="text-xl font-semibold text-gray-800 leading-snug">Fight Hair<br/>Loss</h3>
+        <div class="mt-6 flex justify-end">
+          <button class="arrow-btn w-10 h-10 rounded-full flex items-center justify-center" style="background:#1a7a5e;">
+            <svg class="w-4 h-4" fill="none" stroke="white" stroke-width="2.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Orange/gold pill illustration -->
+      <div class="flex-shrink-0">
+        <div class="w-24 h-24 rounded-full shadow-lg flex items-center justify-center" style="background: linear-gradient(145deg, #e8a84a, #c8882a); box-shadow: 0 8px 24px rgba(200,136,42,0.35);">
+          <div class="w-16 h-16 rounded-full flex items-center justify-center" style="background: rgba(255,255,255,0.12);">
+            <span class="text-3xl font-bold text-white" style="text-shadow: 0 2px 4px rgba(0,0,0,0.2);">L</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

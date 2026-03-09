@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>LifeRx.md</title>
+</head>
+<body>
+    <div class="main flex flex-col">
+        <header class="w-full bg-transparent py-8 md:pt-[40px] md:pb-[20px] max-w-[1160px] mx-auto relative z-[100]">
+            <div class="relative">
+                <div class="flex items-center justify-between">
+                    <a class="flex items-center px-8 lg:px-2 flex-shrink-0" href="/">
+                        <img alt="LifeRx MD Logo" loading="lazy" width="120" height="40" class="w-[90px] md:w-[120px] md:h-[40px]" src="/images/LifeRxmd.svg" style="color: transparent;">
+                    </a>
+                    <nav class="hidden lg:flex items-center justify-center flex-1 space-x-8 md:gap-[49.42px] md:space-x-0 ">
+                        <a class="text-[#545454] text-[18px]" href="/">Home</a>
+                        <a class="text-[#545454] text-[18px]" href="/">Treatments</a>
+                        <a class="text-[#545454] text-[18px]" href="/">Reviews</a>
+                        <a class="text-[#545454] text-[18px]" href="/">Blog</a>
+                        <a class="text-[#545454] text-[18px]" href="/">FAQ</a>
+                    </nav>
+                    <div class="lg:flex flex-shrink-0">
+                        <button type="button" class="w-[106px] text-center py-[10px] px-[30px] customebtn-bg text-white rounded-[10px] text-[16px] font-normal">Login</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="w-full radial-gradient">
+            <div class="section-div max-w-[1160px] mx-auto mt-[40px] md:mt-0 lg:py-16  py-4 md:py-12 px-4 lg:pb-0 lg:px-0 lg:pt-[107px]">
+                <div class="section-heading">
+                    <h1 class="text-5xl sm:text-6xl font-normal font-didot">Have Better Health</h1>
+                </div>
+                <div class="w-full space-y-6 md:space-y-8 mt-2.5 sm:mt-0 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-6 lg:pb-[128px] lg:pt-[60px]">
+                    <div class="card bg-white rounded-3xl p-8 flex flex-col justify-center h-[200px] sm:h-[240px] md:h-[280px] lg:h-[570px] relative overflow-hidden cursor-pointer row-span-2 shadow-sm transform hover:scale-105 transition-all duration-300">
+                        <div class="flex items-center justify-center items-center">
+                            <div class="relative">
+                                <img src="/images/weightloss-med.png" alt="">
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-between flex-1">
+                            <div class="text-black text-3xl font-normal text-center">
+                                <h2 class="text-3xl font-normal text-center mt-5">Weight Loss with GLP-1s</h2>
+                            </div>
+                            <div class="w-full flex items-end justify-end">
+                                <button class="arrow-btn w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0" style="background:#1a7a5e;">
+                                    <svg class="w-4 h-4 text-white" fill="none" stroke="white" stroke-width="2.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-white rounded-3xl p-7 flex flex-col items-center justify-between shadow-sm cursor-pointer transform hover:scale-105 transition-all duration-300 h-[200px] sm:h-[240px] md:h-[280px] lg:h-[270px]">
+                        <div class="w-full items-center flex justify-between flex-1 pr-4">
+                            <h3 class="text-3xl font-normal text-center mt-5">Boost Sexual <br> Performance</h3>
+                            <div class="flex-shrink-0">
+                                <img src="/images/BoostPerformance.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="w-full flex justify-end items-end">
+                            <button class="arrow-btn w-7 h-7 rounded-full flex items-center justify-center" style="background:#1a7a5e;">
+                                <svg class="w-4 h-4" fill="none" stroke="white" stroke-width="2.5" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card bg-white rounded-3xl p-7 flex flex-col items-center justify-between shadow-sm cursor-pointer transform hover:scale-105 transition-all duration-300 h-[200px] sm:h-[240px] md:h-[280px] lg:h-[270px]">
+                        <div class="w-full items-center flex justify-between flex-1 pr-4">
+                            <h3 class="text-3xl font-normal text-center mt-5">Fight Hair Loss</h3>
+                            <div class="flex-shrink-0">
+                                <img src="/images/hairloss.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="w-full flex justify-end items-end">
+                            <button class="arrow-btn w-7 h-7 rounded-full flex items-center justify-center" style="background:#1a7a5e;">
+                                <svg class="w-4 h-4" fill="none" stroke="white" stroke-width="2.5" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="w-full flex items-center justify-center bg-[#1f5d52] rounded-2xl mx-auto">
+            <div class="flex flex-col max-w-[1160px] items-center gap-8 py-8 sm:py-12 lg:py-24 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-0">
+                <div class="w-full">
+                    <h1 class="text-[#B9D8AD] text-center sm:text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal font-didot leading-tight sm:leading-[1.2] lg:leading-[101px]">Why LifeRx.md?</h1>
+                    <div class="flex flex-col lg:flex-row gap-8 sm:gap-12 lg:gap-16 items-start lg:items-start">
+                        <div class="w-full lg:w-auto lg:max-w-[390px] xl:max-w-[420px]">
+                            <div class="w-full">
+                                <p class="text-[#FBF6EC] text-base sm:text-lg md:text-xl lg:text-[1.40rem] leading-7 sm:leading-[30px] md:leading-[34px] lg:leading-[44px] font-normal text-center sm:text-left">LifeRx.md connects you with licensed providers for personalized healthcare solutions that treat the whole you.</p>
+                            </div>
+                        </div>
+                        <div class="w-full lg:flex-1 lg:flex lg:justify-end">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-x-8 gap-y-3 w-full sm:w-auto lg:max-w-none mx-auto lg:mx-0">
+                                <div class="bg-[#00000040] rounded-2xl h-16 sm:h-18 md:h-20 p-4 sm:p-5 flex items-center justify-start space-x-4 sm:space-x-5 hover:bg-[#00000060] transition-colors w-full sm:w-[260px] lg:w-[320px] xl:w-[340px]">
+                                    <div class="flex-shrink-0">
+                                        <img src="/images/C22.svg" class="w-8 h-6 sm:w-9 sm:h-7 md:w-10 md:h-8" alt="">
+                                    </div>
+                                    <span class="text-[#FBF6EC] text-sm sm:text-base md:text-lg font-medium leading-tight">Online consultation</span>
+                                </div>
+                                <div class="bg-[#00000040] rounded-2xl h-16 sm:h-18 md:h-20 p-4 sm:p-5 flex items-center justify-start space-x-4 sm:space-x-5 hover:bg-[#00000060] transition-colors w-full sm:w-[260px] lg:w-[320px] xl:w-[340px]">
+                                    <div class="flex-shrink-0">
+                                        <img src="/images/C44.svg" class="w-8 h-6 sm:w-9 sm:h-7 md:w-10 md:h-8" alt="">
+                                    </div>
+                                    <span class="text-[#FBF6EC] text-sm sm:text-base md:text-lg font-medium leading-tight">Licensed Providers</span>
+                                </div>
+                                <div class="bg-[#00000040] rounded-2xl h-16 sm:h-18 md:h-20 p-4 sm:p-5 flex items-center justify-start space-x-4 sm:space-x-5 hover:bg-[#00000060] transition-colors w-full sm:w-[260px] lg:w-[320px] xl:w-[340px]">
+                                    <div class="flex-shrink-0">
+                                        <img src="/images/C11.svg" class="w-8 h-6 sm:w-9 sm:h-7 md:w-10 md:h-8" alt="">
+                                    </div>
+                                    <span class="text-[#FBF6EC] text-sm sm:text-base md:text-lg font-medium leading-tight">Prescribed by Licensed Providers</span>
+                                </div>
+                                <div class="bg-[#00000040] rounded-2xl h-16 sm:h-18 md:h-20 p-4 sm:p-5 flex items-center justify-start space-x-4 sm:space-x-5 hover:bg-[#00000060] transition-colors w-full sm:w-[260px] lg:w-[320px] xl:w-[340px]">
+                                    <div class="flex-shrink-0">
+                                        <img src="/images/C55.svg" class="w-8 h-6 sm:w-9 sm:h-7 md:w-10 md:h-8" alt="">
+                                    </div>
+                                    <span class="text-[#FBF6EC] text-sm sm:text-base md:text-lg font-medium leading-tight">24/7 Customer Support</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-14 md:py-[128px]">
+            <div class="how-it-works-section flex flex-col gap-12 max-w-[1160px] mx-auto px-4 sm:px-6 md:px-8 lg:px-0">
+                <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-didot font-normal text-start text-[#1F5D52]">How it works</h1>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-8">
+                    <div class="flex flex-col items-center">
+                        <div class="rounded-[16px] w-full h-44 sm:h-56 md:h-80 lg:h-64 overflow-hidden mb-4 sm:mb-6 md:mb-[1.875rem]">
+                            <img src="/images/Step-11.webp" class="w-full h-full object-cover" alt="">
+                        </div>
+                        <div class="w-full flex flex-col items-center space-y-2 sm:space-y-3 md:space-y-4">
+                            <h4 class="text-lg sm:text-HeadingFontSize font-bold text-[#1F5D52] text-center leading-tight">Tell Us About You</h4>
+                            <span class="text-[#575D55] text-sm sm:text-base font-normal text-center leading-relaxed">Fill out a Brief Questionnaire.</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="rounded-[16px] w-full h-44 sm:h-56 md:h-80 lg:h-64 overflow-hidden mb-4 sm:mb-6 md:mb-[1.875rem]">
+                            <img src="/images/Step-11.webp" class="w-full h-full object-cover" alt="">
+                        </div>
+                        <div class="w-full flex flex-col items-center space-y-2 sm:space-y-3 md:space-y-4">
+                            <h4 class="text-lg sm:text-HeadingFontSize font-bold text-[#1F5D52] text-center leading-tight">Tell Us About You</h4>
+                            <span class="text-[#575D55] text-sm sm:text-base font-normal text-center leading-relaxed">Fill out a Brief Questionnaire.</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="rounded-[16px] w-full h-44 sm:h-56 md:h-80 lg:h-64 overflow-hidden mb-4 sm:mb-6 md:mb-[1.875rem]">
+                            <img src="/images/Step-11.webp" class="w-full h-full object-cover" alt="">
+                        </div>
+                        <div class="w-full flex flex-col items-center space-y-2 sm:space-y-3 md:space-y-4">
+                            <h4 class="text-lg sm:text-HeadingFontSize font-bold text-[#1F5D52] text-center leading-tight">Tell Us About You</h4>
+                            <span class="text-[#575D55] text-sm sm:text-base font-normal text-center leading-relaxed">Fill out a Brief Questionnaire.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
