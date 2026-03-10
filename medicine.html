@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select a Medicine</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen flex flex-col items-center justify-start py-8 px-4 font-sans">
+
+  <div class="flex flex-col w-full max-w-sm gap-5">
+
+    <h1 class="text-2xl font-bold text-green-950">Select a medicine</h1>
+
+    <label id="card1" class="flex flex-col rounded-2xl overflow-hidden border-2">
+
+      <div class="flex items-center justify-center py-2 bg-green-900">
+        <span class="text-xs font-medium text-green-200 tracking-wide">Recommended</span>
+      </div>
+
+      <div class="flex flex-col gap-3 p-4">
+
+        <div class="flex flex-row items-start justify-between gap-3">
+          <div class="flex flex-col gap-0.5">
+            <span class="text-base font-bold text-green-950">Viagra®</span>
+            <span class="text-sm text-green-950">starting at <span class="font-bold">$468/mo*</span></span>
+          </div>
+          
+          <div class="flex items-center justify-center w-12 h-12 shrink-0">
+            <img src="/images/Minoxidil.png" alt="">
+          </div>
+        </div>
+        <div class="flex flex-row items-center">
+          <span class="flex items-center gap-1 bg-green-100 text-green-700 text-xs font-medium px-3 py-1 rounded-full">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="4"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+            Tablet
+          </span>
+        </div>
+        <p class="text-xs text-green-800 leading-relaxed">
+          Brand-name ED medication. Best for occasional use with proven reliability.
+        </p>
+        <div class="flex flex-row items-center justify-between">
+          <div class="flex items-center gap-1 text-green-700 text-xs font-medium">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Safety Information
+          </div>
+          <div class="flex items-center justify-center">
+            <input type="radio" name="option" class="w-5 h-5 border-2 border-green-900 checked:border-green-900 accent-green-900" checked />
+          </div>
+        </div>
+
+      </div>
+    </label>
+    <label id="card2" class="flex flex-col rounded-2xl border border-gray-200">
+      <div class="flex flex-col gap-3 p-4">
+
+        <div class="flex flex-row items-start justify-between gap-3">
+          <div class="flex flex-col gap-0.5">
+            <span class="text-base font-bold text-green-950">Viagra®</span>
+            <span class="text-sm text-green-950">starting at <span class="font-bold">$468/mo*</span></span>
+          </div>
+          <div class="flex items-center shrink-0">
+            <img src="/images/spray_lotion.png" alt="">
+          </div>
+        </div>
+        <div class="flex flex-row items-center">
+          <span class="flex items-center gap-1 bg-green-100 text-green-700 text-xs font-medium px-3 py-1 rounded-full">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="4"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+            Tablet
+          </span>
+        </div>
+        <p class="text-xs text-green-800 leading-relaxed">
+          Brand-name ED medication. Best for occasional use with proven reliability.
+        </p>
+        <div class="flex flex-row items-center justify-between">
+          <div class="flex items-center gap-1 text-green-700 text-xs font-medium">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Safety Information
+          </div>
+          <input type="radio" name="option" class="w-5 h-5 border-2 border-green-900 checked:border-green-900 accent-green-900" />
+        </div>
+
+      </div>
+    </label>
+    <label id="card3" class="flex flex-col rounded-2xl border border-gray-200">
+      <div class="flex flex-col gap-3 p-4">
+        <div class="flex flex-row items-start justify-between gap-3">
+          <div class="flex flex-col gap-0.5">
+            <span class="text-base font-bold text-green-950">Viagra®</span>
+            <span class="text-sm text-green-950">starting at <span class="font-bold">$468/mo*</span></span>
+          </div>
+          <div class="flex items-center justify-center w-14 h-8 shrink-0 mt-2">
+              <img src="/images/2-in-1.png" alt="">
+          </div>
+        </div>
+
+        <!-- Tag -->
+        <div class="flex flex-row items-center">
+          <span class="flex items-center gap-1 bg-green-100 text-green-700 text-xs font-medium px-3 py-1 rounded-full">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="4"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+            Tablet
+          </span>
+        </div>
+
+        <!-- Description -->
+        <p class="text-xs text-green-800 leading-relaxed">
+          Brand-name ED medication. Best for occasional use with proven reliability.
+        </p>
+
+        <!-- Footer -->
+        <div class="flex flex-row items-center justify-between">
+          <div class="flex items-center gap-1 text-green-700 text-xs font-medium">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Safety Information
+          </div>
+          <input type="radio" name="option" class="w-5 h-5 border-2 border-green-900 checked:border-green-900 accent-green-900" />
+        </div>
+
+      </div>
+    </label>
+    <button class="flex items-center justify-center w-full py-4 rounded-xl bg-green-900 text-white font-semibold text-base">
+      Continue
+    </button>
+
+  </div>
+
+<script>
+    const cards = [
+    document.getElementById('card1'),
+    document.getElementById('card2'),
+    document.getElementById('card3')
+    ];
+
+    function selectCard(selectedCard) {
+    cards.forEach(card => {
+        card.classList.remove('border-green-900','bg-green-50','text-indigo-900');
+        card.classList.add('bg-white');
+    });
+    selectedCard.classList.remove('bg-white');
+    selectedCard.classList.add('border-green-900','bg-green-50','text-indigo-900');
+    selectedCard.querySelector('input[type="radio"]').checked = true;
+    }
+    cards.forEach(card => {
+    card.addEventListener('click', () => selectCard(card));
+    });
+    selectCard(cards[0]);
+</script>
+
+</body>
+</html>
